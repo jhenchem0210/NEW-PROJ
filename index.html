@@ -42,7 +42,7 @@
                     <a class="text-dark px-2" href="https://www.facebook.com/arjhentv">
                         <i class="fab fa-facebook-f"></i>
                     </a>
-                    <a class="text-dark px-2" href="">
+                    <a class="text-dark px-2" href="https://www.twitter.com/jhenchem">
                         <i class="fab fa-twitter"></i>
                     </a>
                     <a class="text-dark px-2" href="https://www.tiktok.com/@arjhentv_shop">
@@ -142,10 +142,148 @@
                                     <a href="checkout.html" class="dropdown-item">Checkout</a>
                                 </div>
                             </div>
-                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                            
+<!---------Modal 1------>
+
+<div class="container">
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal1"> Contact
+    </button>
+</div>
+
+<!------Modal----->
+<div class="modal fade" id="myModal1">
+    <div class="modal-dialog modal-fullscreen modal-dialog-centered">
+        <div class="modal-content">
+<!------Modal header----->
+
+    <div class="modal-header">
+        <h4 class="modal-title"> Modal Heading </h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+    </div>
+
+<!----------Modal Body------->
+    <div class="modal-body">
+        <div class="container-fluid pt-5">
+            <div class="text-center mb-4">
+                <h2 class="section-title px-5"><span class="px-2">Contact For Any Queries</span></h2>
+            </div>
+            <div class="row px-xl-5">
+                <div class="col-lg-7 mb-5">
+                    <div class="contact-form">
+                        <div id="success"></div>
+                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                            <div class="control-group">
+                                <input type="text" class="form-control" id="name" placeholder="Your Name"
+                                    required="required" data-validation-required-message="Please enter your name" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <input type="email" class="form-control" id="email" placeholder="Your Email"
+                                    required="required" data-validation-required-message="Please enter your email" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <input type="text" class="form-control" id="subject" placeholder="Subject"
+                                    required="required" data-validation-required-message="Please enter a subject" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <textarea class="form-control" rows="6" id="message" placeholder="Message"
+                                    required="required"
+                                    data-validation-required-message="Please enter your message"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div>
+                                <button class="btn btn-primary py-2 px-4" type="submit" id="sendMessageButton">Send
+                                    Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-5 mb-5">
+                    <h5 class="font-weight-semi-bold mb-3">Get In Touch</h5>
+                    <p> Fill up the form completely to contact us.</p>
+                    <div class="d-flex flex-column mb-3">
+                        <h5 class="font-weight-semi-bold mb-3">Store 1</h5>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt text-primary mr-3"></i>Antipolo City, 1870 Rizal, Calabarzon, Philippines</p>
+                        <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>arjhentvshop@outlook.com</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt text-primary mr-3"></i>+012 345 67890</p>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <h5 class="font-weight-semi-bold mb-3">Store 2</h5>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt text-primary mr-3"></i>Bagbag, Novaliches, Quezon City</p>
+                        <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>info@arjhentv.com</p>
+                        <p class="mb-0"><i class="fa fa-phone-alt text-primary mr-3"></i>+012 345 67890</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!----------Modal1 Footer------->
+    <div class="modal-footer">
+    <button type="button" class="btn btn-danger" data-bs-dismiss="modal"> Close</button>
+    <button type="button" class="btn btn-primary"> Save </button>
+    </div>
+</div>
+</div>
+</div>
+
+
                         </div>
                         <div class="navbar-nav ml-auto py-0">
-                            <a href="login.html" class="nav-item nav-link">Login</a>
+                            <a href="reg.html" class="nav-item nav-link">Register</a>
+                            <!---------Modal 3------>
+
+<div class="container">
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal3"> Login
+    </button>
+</div>
+
+<!------Modal----->
+<div class="modal fade" id="myModal3">
+    <div class="modal-dialog modal-fullscreen modal-dialog-centered">
+        <div class="modal-content">
+<!------Modal header----->
+
+    <div class="modal-header">
+        <h4 class="modal-title"> Modal Heading </h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+    </div>
+
+<!----------Modal Body------->
+    <div class="modal-body">
+        <div class="container-fluid pt-5">
+            <main class="form-signin w-100 m-auto">
+                <form>
+                  <img class="mb-4" src="Media/arjhentvlogo2.png" alt="logo" width="72" height="57">
+                  <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+              
+                  <div class="form-floating">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Email address</label>
+                  </div>
+                  <div class="form-floating">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Password</label>
+                  </div>
+              
+                  <div class="checkbox mb-3">
+                    <label>
+                      <input type="checkbox" value="remember-me"> Remember me
+                    </label>
+                  </div>
+                  <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+                  <p class="mt-5 mb-3 text-muted">&copy; 2017–2022</p>
+                </form>
+              </main>
+              <!----------Modal1 Footer------->
+    <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal"> Close</button>
+        <button type="button" class="btn btn-primary"> Save </button>
+        </div>
+    </div>
+    </div>
                             <a href="reg.html" class="nav-item nav-link">Register</a>
                         </div>
                     </div>
@@ -802,7 +940,94 @@
                             <a class="text-dark mb-2" href="seller.html"><i class="fa fa-angle-right mr-2"></i>Seller's Corner</a>
                             <a class="text-dark mb-2" href="https://www.facebook.com/arjhentv"><i class="fa fa-angle-right mr-2"></i>Join our Community</a>
                             <a class="text-dark mb-2" href="contact.html"><i class="fa fa-angle-right mr-2"></i>Help</a>
-                            <a class="text-dark" href="chat.html"><i class="fa fa-angle-right mr-2"></i>Chat With AJ</a>
+                           
+                            <!---------Modal 1------>
+
+<div class="container">
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal2"> Chat With AJ
+    </button>
+</div>
+
+<!------Modal----->
+<div class="modal fade" id="myModal2">
+    <div class="modal-dialog modal-fullscreen modal-dialog-centered">
+        <div class="modal-content">
+<!------Modal header----->
+
+    <div class="modal-header">
+        <h4 class="modal-title"> Need Help? </h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+    </div>
+
+<!----------Modal Body------->
+    <div class="modal-body">
+
+        <!--------Chatbox-->
+
+        <section style="background-color: #eee;">
+            <div class="container py-5">
+          
+              <div class="row d-flex justify-content-center">
+                <div class="col-md-8 col-lg-6 col-xl-4">
+          
+                  <!-- Buttons trigger collapse -->
+                  <a class="btn btn-info btn-lg btn-block" data-bs-toggle="collapse" href="#collapseExample"
+                    role="button" aria-expanded="false" aria-controls="collapseExample">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <span>Chat With AJ</span>
+                      <i class="fas fa-chevron-down"></i>
+                    </div>
+                  </a>
+          
+                  <!-- Collapsed content -->
+                  <div class="collapse mt-3" id="collapseExample">
+                    <div class="card" id="chat4">
+                      <div class="card-body" data-bs-perfect-scrollbar="true"
+                        style="position: relative; height: 400px">
+          
+                        <div class="d-flex flex-row justify-content-start">
+                          <img src="Media/ajspiderman.png"
+                            alt="avatar 1" style="width: 45px; height: 100%;">
+                          <div>
+                            <p class="small p-2 ms-3 mb-1 rounded-3" style="background-color: #f5f6f7;">Hi</p>
+                            <p class="small p-2 ms-3 mb-1 rounded-3" style="background-color: #f5f6f7;">What can I do for you?</p>
+                          </div>
+                        </div>
+          
+                        <div class="divider d-flex align-items-center mb-4">
+                          <p class="text-center mx-3 mb-0" style="color: #a2aab7;">Today</p>
+                        </div>
+          
+                        <div class="d-flex flex-row justify-content-end mb-4 pt-1">
+                          <div>
+                            <p class="small p-2 me-3 mb-1 text-white rounded-3 bg-info">Hiii, I'm good.</p>
+                            <p class="small p-2 me-3 mb-1 text-white rounded-3 bg-info">Can I get a help with my order?</p>
+                          </div>
+                          <img src="Media/santa-removebg-preview.png"
+                            alt="avatar 2" style="width: 45px; height: 100%;">
+                        </div>
+                      </div>
+                      <div class="card-footer text-muted d-flex justify-content-start align-items-center p-3">
+                        <img src="Media/ajspiderman.png"
+                          alt="avatar 1" style="width: 40px; height: 100%;">
+                        <input type="text" class="form-control form-control-lg" id="FormControlInput3"
+                          placeholder="Type message">
+                        <a class="ms-1 text-muted" href="#!"><i class="fas fa-paperclip"></i></a>
+                        <a class="ms-3 text-muted" href="#!"><i class="fas fa-smile"></i></a>
+                        <a class="ms-3 link-info" href="#!"><i class="fas fa-paper-plane"></i></a>
+                      </div>
+                    </div>
+                  </div>
+          
+                </div>
+              </div>
+          
+            </div>
+          </section>
+</div>
+</div>
+</div>
+</div>
                         </div>
                     </div>
                     <div class="col-md-4 mb-5">

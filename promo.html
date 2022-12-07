@@ -1,27 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <title>Deals And Promotions</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-        <link href="style.css" rel="stylesheet">
-        
-    <!-- Font Awesome -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
-    <!-- Google Fonts Roboto -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"/>
-    <!-- Favicon -->
-        <link href="img/favicon.ico" rel="icon">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <title>Deals & Promo</title>    
+
     
-    <!-- Google Web Fonts -->
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
-    
-    </head>
+<!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+<!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"/>
+<!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+<!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+
+</head>
 
 <body>
+
+
     <!-- Topbar Start -->
     <div class="container-fluid">
         <div class="row bg-info py-2 px-xl-5">
@@ -58,7 +62,7 @@
         <div class="row align-items-center py-3 px-xl-5">
             <div class="col-lg-3 d-none d-lg-block">
                 <a class="navbar-brand mt-lg-0" href="#">
-                <a href="shop.html" class="text-decoration-none">
+                <a href="index.html" class="text-decoration-none">
                     <h1 class="m-0 display-5 font-weight-semi-bold"><span class="text-primary font-weight-bold px-3 mr-1"><img src="Media/arjhentvlogo2.png" height="100" alt="arjhentvlogo"
                         loading="lazy" /></span>Shop</h1>
                 </a>
@@ -68,7 +72,7 @@
                     <div class="input-group">
                         <input type="text" class="form-control" placeholder="Search for products">
                         <div class="input-group-append">
-                            <span class="input-group-text bg-transparent text-primary">
+                            <span class="input-group-text bg-transparent bg-border text-primary">
                                 <i class="fa fa-search"></i>
                             </span>
                         </div>
@@ -91,11 +95,11 @@
 
      <!-- Navbar Start -->
      <div class="container-fluid mb-5">
-        <div class="row border-top px-xl-5">
-            <div class="col-lg-3 d-none d-lg-block">
+        <div class="row border-top py-2 px-xl-5">
+            <div class="col-lg-3 bg-info d-none d-lg-block align-items-center pt-2">
                 
                 <div class="dropdown">
-                    <button type="button" class="btn btn-primary dropdown-toggle d-flex align-items-center justify-content-between text-white w-100" data-bs-toggle="dropdown" href="#navbar-vertical" style="height: 65px; margin-top: -1px; padding: 0 30px;">
+                    <button type="button" class="btn btn-info dropdown-toggle d-flex align-items-center justify-content-between text-dark" data-bs-toggle="dropdown" href="#navbar-vertical" style="height: 65px; margin-top: -1px; padding: 0 25px;">
                     Categories </button>
                 <ul class="dropdown-menu position-absolute bg-secondary border-0 rounded-0 w-100 m-0 p-2">
                     <li><h5 class="dropdown-header"> Fashion Wearables </h5></li>
@@ -119,8 +123,8 @@
         </div>
        <br> 
           
-            <div class="col-lg-9">
-                <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0">
+            <div class="col-lg-9 bg-info">
+                <nav class="navbar navbar-expand-lg bg-info navbar-light py-3 py-lg-0 px-0">
                     <a href="shop.html" class="text-decoration-none d-block d-lg-none">
                         <h1 class="m-0 display-5 font-weight-semi-bold"><span class="text-primary font-weight-bold border px-3 mr-1"><img src="Media/arjhentvlogo2.png" height="100" alt="arjhentvlogo"
                             loading="lazy" /></span>Shop</h1>
@@ -132,205 +136,440 @@
                         <div class="navbar-nav mr-auto py-0">
                             <a href="index.html" class="nav-item nav-link active">Home</a>
                             <a href="shop.html" class="nav-item nav-link">Shop</a>
-                            <a href="detail.html" class="nav-item nav-link">Shop Detail</a>
+                            <a href="detail.html" class="nav-item nav-link text-center">Details</a>
                             <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                            <div class="dropdown-menu rounded-0 m-0">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                                <div class="dropdown-menu rounded-0 m-0">
                                     <a href="cart.html" class="dropdown-item">Shopping Cart</a>
                                     <a href="checkout.html" class="dropdown-item">Checkout</a>
+                                </div>
                             </div>
-                        </div>
+                            
+<!---------Modal 1------>
 
-    
+<div class="container">
+    <button type="button" class="btn btn-info text-dark" data-bs-toggle="modal" data-bs-target="#myModal1"> Contact Us
+    </button>
+</div>
+
+<!------Modal----->
+<div class="modal fade" id="myModal1">
+    <div class="modal-dialog modal-fullscreen modal-dialog-centered">
+        <div class="modal-content">
+<!----------Modal Body------->
+    <div class="modal-body">
+        <div class="container-fluid pt-5">
+            <div class="text-center mb-4">
+                <h2 class="section-title px-5"><span class="px-2">Contact For Any Queries</span></h2>
+            </div>
+            <div class="row px-xl-5">
+                <div class="col-lg-7 mb-5">
+                    <div class="contact-form">
+                        <div id="success"></div>
+                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                            <div class="control-group">
+                                <input type="text" class="form-control" id="name" placeholder="Your Name"
+                                    required="required" data-validation-required-message="Please enter your name" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <input type="email" class="form-control" id="email" placeholder="Your Email"
+                                    required="required" data-validation-required-message="Please enter your email" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <input type="text" class="form-control" id="subject" placeholder="Subject"
+                                    required="required" data-validation-required-message="Please enter a subject" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <textarea class="form-control" rows="6" id="message" placeholder="Message"
+                                    required="required"
+                                    data-validation-required-message="Please enter your message"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div>
+                                <button class="btn btn-primary py-2 px-4" type="submit" id="sendMessageButton">Send
+                                    Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-5 mb-5">
+                    <h5 class="font-weight-semi-bold mb-3">Get In Touch</h5>
+                    <p> Fill up the form completely to contact us.</p>
+                    <div class="d-flex flex-column mb-3">
+                        <h5 class="font-weight-semi-bold mb-3">Store 1</h5>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt text-primary mr-3"></i>Antipolo City, 1870 Rizal, Calabarzon, Philippines</p>
+                        <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>arjhentvshop@outlook.com</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt text-primary mr-3"></i>+012 345 67890</p>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <h5 class="font-weight-semi-bold mb-3">Store 2</h5>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt text-primary mr-3"></i>Bagbag, Novaliches, Quezon City</p>
+                        <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>info@arjhentv.com</p>
+                        <p class="mb-0"><i class="fa fa-phone-alt text-primary mr-3"></i>+012 345 67890</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+            <div class="navbar-nav ml-auto py-0">
+                <a href="reg.html" class="nav-item nav-link">Register</a>
+                    
+<!---------Modal 2------>
+
+        <div class="container">
+            <button type="button" class="btn btn-info text-dark data-bs-toggle="modal" data-bs-target="#myModal2"> Login
+            </button>
+            </div>
+
+<!----------Modal2 Body------->
+
+<!-- Modal -->
+        <div class="modal fade" id="myModal2" tabindex="-1" aria-labelledby="myModal2" aria-hidden="true">
+            <div class="modal-dialog d-flex justify-content-center">
+                <div class="modal-content w-75">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="myModal2">Sign in</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-4">
+                <form>
+                    <!-- Email input -->
+                    <div class="form-outline mb-4">
+                        <input type="email" id="email1" class="form-control" />
+                        <label class="form-label" for="email1">Email address</label>
+                    </div>
+
+                    <!-- password input -->
+                    <div class="form-outline mb-4">
+                        <input type="password" id="password1" class="form-control" />
+                        <label class="form-label" for="password1">Password</label>
+                    </div>
+
+                    <!-- Submit button -->
+                    <button type="submit" class="btn btn-primary btn-block">Login</button>
+                </form>
+
+                    <div class="d-flex justify-content-center text-center mt-4 pt-1">
+                        <a href="https://www.facebook.com" class="text-dark"><i class="fab fa-facebook-f fa-lg"></i></a>
+                        <a href="https://www.twitter.com" class="text-dark"><i class="fab fa-twitter fa-lg mx-4 px-2"></i></a>
+                        <a href="https://mail.google.com" class="text-dark"><i class="fab fa-google fa-lg"></i></a>
+                    </div>
+                </div>
+                    <div>
+                        <p class="mb-1 text-center"> Don't have an account? <a href="reg.html" class="text-dark-50 fw-bold">Sign Up</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+</div>
+        </div>
 <!------------Carousel1 Start---------------------->
-<div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
-            
-<!------Indicators--------->
-<div class="carousel-indicators">
-    <button type="button" data-bs-target="#" data-bs-slide-to="0" class="active"></button>
-    <button type="button" data-bs-target="#" data-bs-slide-to="1" ></button>
-    <button type="button" data-bs-target="#" data-bs-slide-to="2" ></button>
-</div>
+    <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
+                
+    <!------Indicators--------->
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#" data-bs-slide-to="1" ></button>
+        <button type="button" data-bs-target="#" data-bs-slide-to="2" ></button>
+    </div>
 
-<!----Carousel1----->
-<div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-        <div class="carousel-item active" style="height: 410px;">
-            <img class="img-fluid" src="Media/bg1.jpg" alt="Image">
-            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                <div class="p-3" style="max-width: 700px;">
-                    <h4 class="text-light text-uppercase font-weight-medium mb-3">10% Off Your First Order</h4>
-                    <h3 class="display-4 text-white font-weight-semi-bold mb-4">Fashionable Dress</h3>
-                    <a href="shop.html" class="btn btn-light py-2 px-3">Shop Now</a>
+    <!----Carousel1----->
+    <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" style="height: 410px;">
+                <img class="img-fluid" src="Media/bg1.jpg" alt="Image">
+                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                    <div class="p-3" style="max-width: 700px;">
+                        <h4 class="text-light text-uppercase font-weight-medium mb-3">10% Off Your First Order</h4>
+                        <h3 class="display-4 text-white font-weight-semi-bold mb-4">Fashionable Dress</h3>
+                        <a href="shop.html" class="btn btn-light py-2 px-3">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" style="height: 410px;">
+                <img class="img-fluid" src="Media/bg2.jpg" alt="Image">
+                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                    <div class="p-3" style="max-width: 700px;">
+                        <h4 class="text-light text-uppercase font-weight-medium mb-3">10% Off Your First Order</h4>
+                        <h3 class="display-4 text-white font-weight-semi-bold mb-4">Reasonable Price</h3>
+                        <a href="shop.html" class="btn btn-light py-2 px-3">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" style="height: 410px;">
+                <img class="img-fluid" src="Media/beach.jpg" alt="Image">
+                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                    <div class="p-3" style="max-width: 700px;">
+                        <h4 class="text-light text-uppercase font-weight-medium mb-3">10% Off Your First Order</h4>
+                        <h3 class="display-4 text-white font-weight-semi-bold mb-4">Big Surprises</h3>
+                        <a href="shop.html" class="btn btn-light py-2 px-3">Shop Now</a>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="carousel-item" style="height: 410px;">
-            <img class="img-fluid" src="Media/bg2.jpg" alt="Image">
-            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                <div class="p-3" style="max-width: 700px;">
-                    <h4 class="text-light text-uppercase font-weight-medium mb-3">10% Off Your First Order</h4>
-                    <h3 class="display-4 text-white font-weight-semi-bold mb-4">Reasonable Price</h3>
-                    <a href="shop.html" class="btn btn-light py-2 px-3">Shop Now</a>
-                </div>
+        <a class="carousel-control-prev" href="#header-carousel" data-bs-slide="prev">
+            <div class="btn btn-dark" style="width: 45px; height: 45px;">
+                <span class="carousel-control-prev-icon mb-n2"></span>
             </div>
-        </div>
-        <div class="carousel-item" style="height: 410px;">
-            <img class="img-fluid" src="Media/beach.jpg" alt="Image">
-            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                <div class="p-3" style="max-width: 700px;">
-                    <h4 class="text-light text-uppercase font-weight-medium mb-3">10% Off Your First Order</h4>
-                    <h3 class="display-4 text-white font-weight-semi-bold mb-4">Big Surprises</h3>
-                    <a href="shop.html" class="btn btn-light py-2 px-3">Shop Now</a>
-                </div>
+        </a>
+        <a class="carousel-control-next" href="#header-carousel" data-bs-slide="next">
+            <div class="btn btn-dark" style="width: 45px; height: 45px;">
+                <span class="carousel-control-next-icon mb-n2"></span>
             </div>
-        </div>
+        </a>
+        <a class="carousel-control-next" href="#header-carousel" data-bs-slide="next">
+            <div class="btn btn-dark" style="width: 45px; height: 45px;">
+                <span class="carousel-control-next-icon mb-n2"></span>
+            </div>
+        </a>
     </div>
-            <a class="carousel-control-prev" href="#header-carousel" data-bs-slide="prev">
-            <div class="btn btn-dark" style="width: 45px; height: 45px;">
-            <span class="carousel-control-prev-icon mb-n2"></span>
-            </div>
-            </a>
-            <a class="carousel-control-next" href="#header-carousel" data-bs-slide="next">
-            <div class="btn btn-dark" style="width: 45px; height: 45px;">
-            <span class="carousel-control-next-icon mb-n2"></span>
-            </div>
-            </a>
-            <a class="carousel-control-next" href="#header-carousel" data-bs-slide="next">
-            <div class="btn btn-dark" style="width: 45px; height: 45px;">
-            <span class="carousel-control-next-icon mb-n2"></span>
-            </div>
-            </a>
-            </div>
-        </div>
     </div>
-</div>
- 
-<!-- Navbar End -->
+    </div>
+    </div>
+     
+    <!-- Navbar End -->
 
 
 
 <!-- Promo Start -->
-    <div class="container-fluid pt-5">
-        <div class="row px-xl-5">
-            <!-- Shop Sidebar Start -->
-            <div class="col-lg-3 col-md-12">
-                <!-- Price Start -->
-                <div class="border-bottom mb-4 pb-4">
-                    <h5 class="font-weight-semi-bold mb-4">Filter by price</h5>
-                    <form>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" checked id="price-all">
-                            <label class="custom-control-label" for="price-all">All Price</label>
-                            <span class="badge border font-weight-normal">1000</span>
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="price-1">
-                            <label class="custom-control-label" for="price-1">$0 - $100</label>
-                            <span class="badge border font-weight-normal">150</span>
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="price-2">
-                            <label class="custom-control-label" for="price-2">$100 - $200</label>
-                            <span class="badge border font-weight-normal">295</span>
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="price-3">
-                            <label class="custom-control-label" for="price-3">$200 - $300</label>
-                            <span class="badge border font-weight-normal">246</span>
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="price-4">
-                            <label class="custom-control-label" for="price-4">$300 - $400</label>
-                            <span class="badge border font-weight-normal">145</span>
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between">
-                            <input type="checkbox" class="custom-control-input" id="price-5">
-                            <label class="custom-control-label" for="price-5">$400 - $500</label>
-                            <span class="badge border font-weight-normal">168</span>
-                        </div>
-                    </form>
-                </div>
-                <!-- Price End -->
-                
-                <!-- Color Start -->
-                <div class="border-bottom mb-4 pb-4">
-                    <h5 class="font-weight-semi-bold mb-4">Filter by color</h5>
-                    <form>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" checked id="color-all">
-                            <label class="custom-control-label" for="price-all">All Color</label>
-                            <span class="badge border font-weight-normal">1000</span>
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="color-1">
-                            <label class="custom-control-label" for="color-1">Black</label>
-                            <span class="badge border font-weight-normal">150</span>
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="color-2">
-                            <label class="custom-control-label" for="color-2">White</label>
-                            <span class="badge border font-weight-normal">295</span>
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="color-3">
-                            <label class="custom-control-label" for="color-3">Red</label>
-                            <span class="badge border font-weight-normal">246</span>
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="color-4">
-                            <label class="custom-control-label" for="color-4">Blue</label>
-                            <span class="badge border font-weight-normal">145</span>
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between">
-                            <input type="checkbox" class="custom-control-input" id="color-5">
-                            <label class="custom-control-label" for="color-5">Green</label>
-                            <span class="badge border font-weight-normal">168</span>
-                        </div>
-                    </form>
-                </div>
-                <!-- Color End -->
-
-                <!-- Size Start -->
-                <div class="mb-5">
-                    <h5 class="font-weight-semi-bold mb-4">Filter by size</h5>
-                    <form>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" checked id="size-all">
-                            <label class="custom-control-label" for="size-all">All Size</label>
-                            <span class="badge border font-weight-normal">1000</span>
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="size-1">
-                            <label class="custom-control-label" for="size-1">XS</label>
-                            <span class="badge border font-weight-normal">150</span>
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="size-2">
-                            <label class="custom-control-label" for="size-2">S</label>
-                            <span class="badge border font-weight-normal">295</span>
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="size-3">
-                            <label class="custom-control-label" for="size-3">M</label>
-                            <span class="badge border font-weight-normal">246</span>
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="size-4">
-                            <label class="custom-control-label" for="size-4">L</label>
-                            <span class="badge border font-weight-normal">145</span>
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between">
-                            <input type="checkbox" class="custom-control-input" id="size-5">
-                            <label class="custom-control-label" for="size-5">XL</label>
-                            <span class="badge border font-weight-normal">168</span>
-                        </div>
-                    </form>
-                </div>
-                <!-- Size End -->
+         <!-- Carousel wrapper -->
+<div id="carouselMultiItem" class="carousel slide carousel-dark text-center" data-bs-ride="carousel">
+    <!-- Controls -->
+    <div class="d-flex justify-content-center mb-4">
+      <button class="carousel-control-prev position-relative" type="button"
+        data-bs-target="#carouselMultiItem" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next position-relative" type="button"
+        data-bs-target="#carouselMultiItem" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Inner -->
+    <div class="carousel-inner py-4">
+      <!-- Single item -->
+      <div class="carousel-item active">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <img class=""
+                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(6).webp" alt="avatar"
+                style="width: 500px; height: auto;" />
+              <h5 class="mb-3">Anna Deynah</h5>
+              <p>UX Designer</p>
+              <p class="text-muted">
+                <i class="fas fa-quote-left pe-2"></i>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
+                officiis hic tenetur quae quaerat ad velit ab hic tenetur.
+              </p>
+              <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+              </ul>
             </div>
-            <!-- Shop Sidebar End -->
-
+  
+            <div class="col-lg-4 d-none d-lg-block">
+              <img class="rounded-circle shadow-1-strong mb-4"
+                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="avatar"
+                style="width: 150px;" />
+              <h5 class="mb-3">John Doe</h5>
+              <p>Web Developer</p>
+              <p class="text-muted">
+                <i class="fas fa-quote-left pe-2"></i>
+                Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+                suscipit laboriosam, nisi ut aliquid commodi.
+              </p>
+              <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li>
+                  <i class="fas fa-star-half-alt fa-sm"></i>
+                </li>
+              </ul>
+            </div>
+  
+            <div class="col-lg-4 d-none d-lg-block">
+              <img class="rounded-circle shadow-1-strong mb-4"
+                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="avatar"
+                style="width: 150px;" />
+              <h5 class="mb-3">Maria Kate</h5>
+              <p>Photographer</p>
+              <p class="text-muted">
+                <i class="fas fa-quote-left pe-2"></i>
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                praesentium voluptatum deleniti atque corrupti.
+              </p>
+              <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="far fa-star fa-sm"></i></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Single item -->
+      <div class="carousel-item">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <img class="rounded-circle shadow-1-strong mb-4"
+                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(3).webp" alt="avatar"
+                style="width: 150px;" />
+              <h5 class="mb-3">John Doe</h5>
+              <p>UX Designer</p>
+              <p class="text-muted">
+                <i class="fas fa-quote-left pe-2"></i>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
+                officiis hic tenetur quae quaerat ad velit ab hic tenetur.
+              </p>
+              <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+              </ul>
+            </div>
+  
+            <div class="col-lg-4 d-none d-lg-block">
+              <img class="rounded-circle shadow-1-strong mb-4"
+                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(4).webp" alt="avatar"
+                style="width: 150px;" />
+              <h5 class="mb-3">Alex Rey</h5>
+              <p>Web Developer</p>
+              <p class="text-muted">
+                <i class="fas fa-quote-left pe-2"></i>
+                Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+                suscipit laboriosam, nisi ut aliquid commodi.
+              </p>
+              <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li>
+                  <i class="fas fa-star-half-alt fa-sm"></i>
+                </li>
+              </ul>
+            </div>
+  
+            <div class="col-lg-4 d-none d-lg-block">
+              <img class="rounded-circle shadow-1-strong mb-4"
+                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(5).webp" alt="avatar"
+                style="width: 150px;" />
+              <h5 class="mb-3">Maria Kate</h5>
+              <p>Photographer</p>
+              <p class="text-muted">
+                <i class="fas fa-quote-left pe-2"></i>
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                praesentium voluptatum deleniti atque corrupti.
+              </p>
+              <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="far fa-star fa-sm"></i></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Single item -->
+      <div class="carousel-item">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <img class="rounded-circle shadow-1-strong mb-4"
+                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(6).webp" alt="avatar"
+                style="width: 150px;" />
+              <h5 class="mb-3">Anna Deynah</h5>
+              <p>UX Designer</p>
+              <p class="text-muted">
+                <i class="fas fa-quote-left pe-2"></i>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
+                officiis hic tenetur quae quaerat ad velit ab hic tenetur.
+              </p>
+              <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+              </ul>
+            </div>
+  
+            <div class="col-lg-4 d-none d-lg-block">
+              <img class=" shadow-1-strong mb-4"
+                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(3).webp" alt="avatar"
+                style="width: 150px;" />
+              <h5 class="mb-3">John Doe</h5>
+              <p>Web Developer</p>
+              <p class="text-muted">
+                <i class="fas fa-quote-left pe-2"></i>
+                Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+                suscipit laboriosam, nisi ut aliquid commodi.
+              </p>
+              <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li>
+                  <i class="fas fa-star-half-alt fa-sm"></i>
+                </li>
+              </ul>
+            </div>
+  
+            <div class="col-lg-4 d-none d-lg-block">
+              <img class="rounded-circle shadow-1-strong mb-4"
+                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(5).webp" alt="avatar"
+                style="width: 150px;" />
+              <h5 class="mb-3">Maria Kate</h5>
+              <p>Photographer</p>
+              <p class="text-muted">
+                <i class="fas fa-quote-left pe-2"></i>
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                praesentium voluptatum deleniti atque corrupti.
+              </p>
+              <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="far fa-star fa-sm"></i></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Inner -->
+  </div>
+  <!-- Carousel wrapper -->
+  <br>
 
             <!-- Shop Product Start -->
             <div class="col-lg-9 col-md-12">
@@ -348,7 +587,7 @@
                                 </div>
                             </form>
                             <div class="dropdown ml-4">
-                                <button class="btn border dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true"
+                                <button class="btn border dropdown-toggle" type="button" id="triggerId" data-bs-toggle="dropdown" aria-haspopup="true"
                                         aria-expanded="false">
                                             Sort by
                                         </button>
@@ -539,95 +778,183 @@
             <!-- Shop Product End -->
         </div>
     </div>
-    <!-- Shop End -->
+    <!-- Promo End -->
 
 
-  <!-- Footer Start -->
-  <div class="container-fluid bg-info text-dark mt-2 pt-2">
-    <div class="row px-xl-3 pt-3">
-        <div class="col-lg-4 col-md-12 mb-5 pr-3 pr-xl-5">
-                <a href="" class="text-decoration-none">
-                    <h1 class="mb-4 display-5 font-weight-semi-bold"><span class="text-dark font-weight-bold border-none px-3 mr-1"><img src="Media/arjhentvlogo2.png" height="80" alt="arjhentvlogo"
-                        loading="lazy" /></span>Shop</h1>
-                </a>
-            <p></p>
-            <p class="mb-2"><i class="fa fa-map-marker-alt text-primary mr-3"></i>Antipolo City, Rizal 1870, Philippines</p>
-            <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>arjhentvshop@outlook.com</p>
-            <p class="mb-0"><i class="fa fa-phone-alt text-primary mr-3"></i>+632 345 67890</p>
+    <!-- Footer Start -->
+    <div class="container-fluid bg-info text-dark mt-2 pt-2">
+        <div class="row px-xl-3 pt-3">
+            <div class="col-lg-4 col-md-12 mb-5 pr-3 pr-xl-5">
+                    <a href="" class="text-decoration-none">
+                        <h1 class="mb-4 display-5 font-weight-semi-bold"><span class="text-dark font-weight-bold border-none px-3 mr-1"><img src="Media/arjhentvlogo2.png" height="80" alt="arjhentvlogo"
+                            loading="lazy" /></span>Shop</h1>
+                    </a>
+                <p></p>
+                <p class="mb-2"><i class="fa fa-map-marker-alt text-primary mr-3"></i>Antipolo City, Rizal 1870, Philippines</p>
+                <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>arjhentvshop@outlook.com</p>
+                <p class="mb-0"><i class="fa fa-phone-alt text-primary mr-3"></i>+632 345 67890</p>
+            </div>
+            <div class="col-lg-8 col-md-12">
+                <div class="row">
+                    <div class="col-md-4 mb-5">
+                        <h5 class="font-weight-bold text-dark mb-4">Quick Links</h5>
+                        <div class="d-flex flex-column justify-content-start">
+                            <a class="text-dark mb-2" href="shop.html"><i class="fa fa-angle-right mr-2"></i>Products</a>
+                            <a class="text-dark mb-2" href="about.html"><i class="fa fa-angle-right mr-2"></i>About Us</a>
+                            <a class="text-dark mb-2" href="promo.html"><i class="fa fa-angle-right mr-2"></i>Deals & Promotions</a>
+                            <a class="text-dark mb-2" href="promo.html"><i class="fa fa-angle-right mr-2"></i>Vouchers</a>
+                            <a class="text-dark mb-2" href="shop.html"><i class="fa fa-angle-right mr-2"></i>Top Rated Products</a>
+                            <a class="text-dark" href="https://www.facebook.com/arjhentv"><i class="fa fa-angle-right mr-2"></i>Live Selling</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-5">
+                        <h5 class="font-weight-bold text-dark mb-4">Helpful Links</h5>
+                        <div class="d-flex flex-column justify-content-start">
+                            <a class="text-dark mb-2" href="blog.html"><i class="fa fa-angle-right mr-2"></i>Blog</a>
+                            <a class="text-dark mb-2" href="blog.html"><i class="fa fa-angle-right mr-2"></i>Affiliate Program</a>
+                            <a class="text-dark mb-2" href="blog.html"><i class="fa fa-angle-right mr-2"></i>Seller's Corner</a>
+                            <a class="text-dark mb-2" href="https://www.facebook.com/arjhentv"><i class="fa fa-angle-right mr-2"></i>Join our Community</a>
+                            <a class="text-dark mb-2" href="contact.html"><i class="fa fa-angle-right mr-2"></i>Help</a>
+                           
+                            <!---------Modal 3------>
+
+<div class="container">
+    <i class="fa fa-angle-right mr-0"></i>
+    <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#myModal3"> Chat With AJ
+    </button>
+</div>
+
+<!------Modal----->
+<div class="modal fade" id="myModal3">
+    <div class="modal-dialog modal-fullscreen modal-dialog-centered">
+        <div class="modal-content">
+<!------Modal header----->
+
+    <div class="modal-header">
+        <h4 class="modal-title"> Need Help? </h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+    </div>
+
+<!----------Modal Body------->
+    <div class="modal-body">
+
+        <!--------Chatbox-->
+
+        <section style="background-color: #eee;">
+            <div class="container py-5">
+          
+              <div class="row d-flex justify-content-center">
+                <div class="col-md-8 col-lg-6 col-xl-4">
+          
+                  <!-- Buttons trigger collapse -->
+                  <a class="btn btn-info btn-lg btn-block" data-bs-toggle="collapse" href="#collapseExample"
+                    role="button" aria-expanded="false" aria-controls="collapseExample">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <span>Chat With AJ</span>
+                      <i class="fas fa-chevron-down"></i>
+                    </div>
+                  </a>
+          
+                  <!-- Collapsed content -->
+                  <div class="collapse mt-3" id="collapseExample">
+                    <div class="card" id="chat4">
+                      <div class="card-body" data-bs-perfect-scrollbar="true"
+                        style="position: relative; height: 400px">
+          
+                        <div class="d-flex flex-row justify-content-start">
+                          <img src="Media/ajspiderman.png"
+                            alt="avatar 1" style="width: 45px; height: 100%;">
+                          <div>
+                            <p class="small p-2 ms-3 mb-1 rounded-3" style="background-color: #f5f6f7;">Hi</p>
+                            <p class="small p-2 ms-3 mb-1 rounded-3" style="background-color: #f5f6f7;">What can I do for you?</p>
+                          </div>
+                        </div>
+          
+                        <div class="divider d-flex align-items-center mb-4">
+                          <p class="text-center mx-3 mb-0" style="color: #a2aab7;">Today</p>
+                        </div>
+          
+                        <div class="d-flex flex-row justify-content-end mb-4 pt-1">
+                          <div>
+                            <p class="small p-2 me-3 mb-1 text-white rounded-3 bg-info">Hiii, I'm good.</p>
+                            <p class="small p-2 me-3 mb-1 text-white rounded-3 bg-info">Can I get a help with my order?</p>
+                          </div>
+                          <img src="Media/santa-removebg-preview.png"
+                            alt="avatar 2" style="width: 45px; height: 100%;">
+                        </div>
+                      </div>
+                      <div class="card-footer text-muted d-flex justify-content-start align-items-center p-3">
+                        <img src="Media/ajspiderman.png"
+                          alt="avatar 1" style="width: 40px; height: 100%;">
+                        <input type="text" class="form-control form-control-lg" id="FormControlInput3"
+                          placeholder="Type message">
+                        <a class="ms-1 text-muted" href="#!"><i class="fas fa-paperclip"></i></a>
+                        <a class="ms-3 text-muted" href="#!"><i class="fas fa-smile"></i></a>
+                        <a class="ms-3 link-info" href="#!"><i class="fas fa-paper-plane"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                
+                </div>
+              </div>
+          
+            </div>
+          </section>
+</div>
+    </div>
         </div>
-        <div class="col-lg-8 col-md-12">
-            <div class="row">
-                <div class="col-md-4 mb-5">
-                    <h5 class="font-weight-bold text-dark mb-4">Quick Links</h5>
-                    <div class="d-flex flex-column justify-content-start">
-                        <a class="text-dark mb-2" href="index.html"><i class="fa fa-angle-right mr-2"></i>Products</a>
-                        <a class="text-dark mb-2" href="About.html"><i class="fa fa-angle-right mr-2"></i>About Us</a>
-                        <a class="text-dark mb-2" href="promo.html"><i class="fa fa-angle-right mr-2"></i>Deals & Promotions</a>
-                        <a class="text-dark mb-2" href="promo.html"><i class="fa fa-angle-right mr-2"></i>Vouchers</a>
-                        <a class="text-dark mb-2" href="shop.html"><i class="fa fa-angle-right mr-2"></i>Top Rated Products</a>
-                        <a class="text-dark" href="https://www.facebook.com/arjhentv"><i class="fa fa-angle-right mr-2"></i>Live Selling</a>
-                    </div>
+            </div>
                 </div>
-                <div class="col-md-4 mb-5">
-                    <h5 class="font-weight-bold text-dark mb-4">Helpful Links</h5>
-                    <div class="d-flex flex-column justify-content-start">
-                        <a class="text-dark mb-2" href="blog.html"><i class="fa fa-angle-right mr-2"></i>Blog</a>
-                        <a class="text-dark mb-2" href="affiliate.html"><i class="fa fa-angle-right mr-2"></i>Affiliate Program</a>
-                        <a class="text-dark mb-2" href="seller.html"><i class="fa fa-angle-right mr-2"></i>Seller's Corner</a>
-                        <a class="text-dark mb-2" href="https://www.facebook.com/arjhentv"><i class="fa fa-angle-right mr-2"></i>Join our Community</a>
-                        <a class="text-dark mb-2" href="contact.html"><i class="fa fa-angle-right mr-2"></i>Help</a>
-                        <a class="text-dark" href="chat.html"><i class="fa fa-angle-right mr-2"></i>Chat With AJ</a>
                     </div>
-                </div>
-                <div class="col-md-4 mb-5">
-                    <h5 class="font-weight-bold text-dark mb-4">Newsletter</h5>
-                    <form action="">
-                        <div class="form-group">
-                            <input type="text" class="form-control border-0 py-4" placeholder="Your Name" required="required" />
-                        </div>
-                        <br>
-                        <div class="form-group">
-                            <input type="email" class="form-control border-0 py-4" placeholder="Your Email"
-                                required="required" /> <br>
-                        </div>
-                        <div>
-                            <button class="btn btn-primary btn-block border-0 py-md-2" type="submit">Subscribe Now</button>
-                        </div>
-                    </form>
+                    <div class="col-md-4 mb-5">
+                        <h5 class="font-weight-bold text-dark mb-4">Newsletter</h5>
+                        <form action="">
+                            <div class="form-group">
+                                <input type="text" class="form-control border-0 py-4" placeholder="Your Name" required="required" />
+                            </div>
+                            <br>
+                            <div class="form-group">
+                                <input type="email" class="form-control border-0 py-4" placeholder="Your Email"
+                                    required="required" /> <br>
+                            </div>
+                            <div>
+                                <button class="btn btn-primary btn-block border-0 py-md-2" type="submit">Subscribe Now</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="row border-top border-light mx-xl-5 py-md-2 pt-2">
-        <div class="col-md-6 px-xl-0">
-            <p class="mb-md-0 text-center text-md-left text-dark">
-                &copy; <a class="text-dark font-weight-semi-bold" href="#">ArjhenTVShop</a>. All Rights Reserved.
-            </p>
+        <div class="row border-top border-light mx-xl-5 py-md-2 pt-2">
+            <div class="col-md-6 px-xl-0">
+                <p class="mb-md-0 text-center text-md-left text-dark">
+                    &copy; <a class="text-dark font-weight-semi-bold" href="#">ArjhenTVShop</a>. All Rights Reserved.
+                </p>
+            </div>
+            <div class="col-md-6 px-xl-0 text-center text-md-right">
+                <img class="img-fluid" src="Media/payment.png" height="20" alt="">
+            </div>
         </div>
-        <div class="col-md-6 px-xl-0 text-center text-md-right">
-            <img class="img-fluid" src="Media/payment.png" height="20" alt="">
-        </div>
     </div>
-</div>
-<!-- Footer End -->
+    <!-- Footer End -->
 
 
-<!-- Back to Top -->
-<a href="#" class="btn btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
 
-<!-- JavaScript Libraries -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" ></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" ></script>
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="lib/easing/easing.min.js"></script>
+    <!-- JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" ></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
 
-<!-- Contact Javascript File -->
-<script src="mail/jqBootstrapValidation.min.js"></script>
-<script src="mail/contact.js"></script>
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
 
-<!-- Template Javascript -->`
-<script src="js/main.js"></script>
+    <!-- Template Javascript -->`
+    <script src="js/main.js"></script>
 </body>
 
 </html>

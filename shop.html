@@ -140,74 +140,200 @@
                                     <a href="checkout.html" class="dropdown-item">Checkout</a>
                                 </div>
                             </div>
+                            
+<!---------Modal 1------>
 
-    
-<!------------Carousel1 Start---------------------->
-<div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
-            
-<!------Indicators--------->
-<div class="carousel-indicators">
-    <button type="button" data-bs-target="#" data-bs-slide-to="0" class="active"></button>
-    <button type="button" data-bs-target="#" data-bs-slide-to="1" ></button>
-    <button type="button" data-bs-target="#" data-bs-slide-to="2" ></button>
+<div class="container">
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal1"> Contact
+    </button>
 </div>
 
-<!----Carousel1----->
-<div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-        <div class="carousel-item active" style="height: 410px;">
-            <img class="img-fluid" src="Media/bg1.jpg" alt="Image">
-            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                <div class="p-3" style="max-width: 700px;">
-                    <h4 class="text-light text-uppercase font-weight-medium mb-3">10% Off Your First Order</h4>
-                    <h3 class="display-4 text-white font-weight-semi-bold mb-4">Fashionable Dress</h3>
-                    <a href="shop.html" class="btn btn-light py-2 px-3">Shop Now</a>
-                </div>
+<!------Modal----->
+<div class="modal fade" id="myModal1">
+    <div class="modal-dialog modal-fullscreen modal-dialog-centered">
+        <div class="modal-content">
+<!----------Modal Body------->
+    <div class="modal-body">
+        <div class="container-fluid pt-5">
+            <div class="text-center mb-4">
+                <h2 class="section-title px-5"><span class="px-2">Contact For Any Queries</span></h2>
             </div>
-        </div>
-        <div class="carousel-item" style="height: 410px;">
-            <img class="img-fluid" src="Media/bg2.jpg" alt="Image">
-            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                <div class="p-3" style="max-width: 700px;">
-                    <h4 class="text-light text-uppercase font-weight-medium mb-3">10% Off Your First Order</h4>
-                    <h3 class="display-4 text-white font-weight-semi-bold mb-4">Reasonable Price</h3>
-                    <a href="shop.html" class="btn btn-light py-2 px-3">Shop Now</a>
+            <div class="row px-xl-5">
+                <div class="col-lg-7 mb-5">
+                    <div class="contact-form">
+                        <div id="success"></div>
+                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                            <div class="control-group">
+                                <input type="text" class="form-control" id="name" placeholder="Your Name"
+                                    required="required" data-validation-required-message="Please enter your name" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <input type="email" class="form-control" id="email" placeholder="Your Email"
+                                    required="required" data-validation-required-message="Please enter your email" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <input type="text" class="form-control" id="subject" placeholder="Subject"
+                                    required="required" data-validation-required-message="Please enter a subject" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <textarea class="form-control" rows="6" id="message" placeholder="Message"
+                                    required="required"
+                                    data-validation-required-message="Please enter your message"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div>
+                                <button class="btn btn-primary py-2 px-4" type="submit" id="sendMessageButton">Send
+                                    Message</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="carousel-item" style="height: 410px;">
-            <img class="img-fluid" src="Media/beach.jpg" alt="Image">
-            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                <div class="p-3" style="max-width: 700px;">
-                    <h4 class="text-light text-uppercase font-weight-medium mb-3">10% Off Your First Order</h4>
-                    <h3 class="display-4 text-white font-weight-semi-bold mb-4">Big Surprises</h3>
-                    <a href="shop.html" class="btn btn-light py-2 px-3">Shop Now</a>
+                <div class="col-lg-5 mb-5">
+                    <h5 class="font-weight-semi-bold mb-3">Get In Touch</h5>
+                    <p> Fill up the form completely to contact us.</p>
+                    <div class="d-flex flex-column mb-3">
+                        <h5 class="font-weight-semi-bold mb-3">Store 1</h5>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt text-primary mr-3"></i>Antipolo City, 1870 Rizal, Calabarzon, Philippines</p>
+                        <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>arjhentvshop@outlook.com</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt text-primary mr-3"></i>+012 345 67890</p>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <h5 class="font-weight-semi-bold mb-3">Store 2</h5>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt text-primary mr-3"></i>Bagbag, Novaliches, Quezon City</p>
+                        <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>info@arjhentv.com</p>
+                        <p class="mb-0"><i class="fa fa-phone-alt text-primary mr-3"></i>+012 345 67890</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <a class="carousel-control-prev" href="#header-carousel" data-bs-slide="prev">
-        <div class="btn btn-dark" style="width: 45px; height: 45px;">
-            <span class="carousel-control-prev-icon mb-n2"></span>
-        </div>
-    </a>
-    <a class="carousel-control-next" href="#header-carousel" data-bs-slide="next">
-        <div class="btn btn-dark" style="width: 45px; height: 45px;">
-            <span class="carousel-control-next-icon mb-n2"></span>
-        </div>
-    </a>
-    <a class="carousel-control-next" href="#header-carousel" data-bs-slide="next">
-        <div class="btn btn-dark" style="width: 45px; height: 45px;">
-            <span class="carousel-control-next-icon mb-n2"></span>
-        </div>
-    </a>
 </div>
 </div>
 </div>
 </div>
- 
-<!-- Navbar End -->
+            <div class="navbar-nav ml-auto py-0">
+                <a href="reg.html" class="nav-item nav-link">Register</a>
+                    
+<!---------Modal 2------>
 
+        <div class="container">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal2"> Login
+            </button>
+            </div>
+
+<!----------Modal2 Body------->
+
+<!-- Modal -->
+        <div class="modal fade" id="myModal2" tabindex="-1" aria-labelledby="myModal2" aria-hidden="true">
+            <div class="modal-dialog d-flex justify-content-center">
+                <div class="modal-content w-75">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="myModal2">Sign in</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-4">
+                <form>
+                    <!-- Email input -->
+                    <div class="form-outline mb-4">
+                        <input type="email" id="email1" class="form-control" />
+                        <label class="form-label" for="email1">Email address</label>
+                    </div>
+
+                    <!-- password input -->
+                    <div class="form-outline mb-4">
+                        <input type="password" id="password1" class="form-control" />
+                        <label class="form-label" for="password1">Password</label>
+                    </div>
+
+                    <!-- Submit button -->
+                    <button type="submit" class="btn btn-primary btn-block">Login</button>
+                </form>
+
+                    <div class="d-flex justify-content-center text-center mt-4 pt-1">
+                        <a href="https://www.facebook.com" class="text-dark"><i class="fab fa-facebook-f fa-lg"></i></a>
+                        <a href="https://www.twitter.com" class="text-dark"><i class="fab fa-twitter fa-lg mx-4 px-2"></i></a>
+                        <a href="https://mail.google.com" class="text-dark"><i class="fab fa-google fa-lg"></i></a>
+                    </div>
+                </div>
+                    <div>
+                        <p class="mb-1 text-center"> Don't have an account? <a href="reg.html" class="text-dark-50 fw-bold">Sign Up</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+</div>
+
+<!------------Carousel1 Start---------------------->
+    <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
+                
+    <!------Indicators--------->
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#" data-bs-slide-to="1" ></button>
+        <button type="button" data-bs-target="#" data-bs-slide-to="2" ></button>
+    </div>
+
+    <!----Carousel1----->
+    <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" style="height: 410px;">
+                <img class="img-fluid" src="Media/bg1.jpg" alt="Image">
+                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                    <div class="p-3" style="max-width: 700px;">
+                        <h4 class="text-light text-uppercase font-weight-medium mb-3">10% Off Your First Order</h4>
+                        <h3 class="display-4 text-white font-weight-semi-bold mb-4">Fashionable Dress</h3>
+                        <a href="shop.html" class="btn btn-light py-2 px-3">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" style="height: 410px;">
+                <img class="img-fluid" src="Media/bg2.jpg" alt="Image">
+                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                    <div class="p-3" style="max-width: 700px;">
+                        <h4 class="text-light text-uppercase font-weight-medium mb-3">10% Off Your First Order</h4>
+                        <h3 class="display-4 text-white font-weight-semi-bold mb-4">Reasonable Price</h3>
+                        <a href="shop.html" class="btn btn-light py-2 px-3">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" style="height: 410px;">
+                <img class="img-fluid" src="Media/beach.jpg" alt="Image">
+                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                    <div class="p-3" style="max-width: 700px;">
+                        <h4 class="text-light text-uppercase font-weight-medium mb-3">10% Off Your First Order</h4>
+                        <h3 class="display-4 text-white font-weight-semi-bold mb-4">Big Surprises</h3>
+                        <a href="shop.html" class="btn btn-light py-2 px-3">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#header-carousel" data-bs-slide="prev">
+            <div class="btn btn-dark" style="width: 45px; height: 45px;">
+                <span class="carousel-control-prev-icon mb-n2"></span>
+            </div>
+        </a>
+        <a class="carousel-control-next" href="#header-carousel" data-bs-slide="next">
+            <div class="btn btn-dark" style="width: 45px; height: 45px;">
+                <span class="carousel-control-next-icon mb-n2"></span>
+            </div>
+        </a>
+        <a class="carousel-control-next" href="#header-carousel" data-bs-slide="next">
+            <div class="btn btn-dark" style="width: 45px; height: 45px;">
+                <span class="carousel-control-next-icon mb-n2"></span>
+            </div>
+        </a>
+    </div>
+    </div>
+    </div>
+    </div>
+     
+    <!-- Navbar End -->
 
 
     <!-- Shop Start -->
@@ -560,8 +686,8 @@
                 <div class="col-md-4 mb-5">
                     <h5 class="font-weight-bold text-dark mb-4">Quick Links</h5>
                     <div class="d-flex flex-column justify-content-start">
-                        <a class="text-dark mb-2" href="index.html"><i class="fa fa-angle-right mr-2"></i>Products</a>
-                        <a class="text-dark mb-2" href="About.html"><i class="fa fa-angle-right mr-2"></i>About Us</a>
+                        <a class="text-dark mb-2" href="shop.html"><i class="fa fa-angle-right mr-2"></i>Products</a>
+                        <a class="text-dark mb-2" href="about.html"><i class="fa fa-angle-right mr-2"></i>About Us</a>
                         <a class="text-dark mb-2" href="promo.html"><i class="fa fa-angle-right mr-2"></i>Deals & Promotions</a>
                         <a class="text-dark mb-2" href="promo.html"><i class="fa fa-angle-right mr-2"></i>Vouchers</a>
                         <a class="text-dark mb-2" href="shop.html"><i class="fa fa-angle-right mr-2"></i>Top Rated Products</a>
@@ -572,8 +698,8 @@
                     <h5 class="font-weight-bold text-dark mb-4">Helpful Links</h5>
                     <div class="d-flex flex-column justify-content-start">
                         <a class="text-dark mb-2" href="blog.html"><i class="fa fa-angle-right mr-2"></i>Blog</a>
-                        <a class="text-dark mb-2" href="affiliate.html"><i class="fa fa-angle-right mr-2"></i>Affiliate Program</a>
-                        <a class="text-dark mb-2" href="seller.html"><i class="fa fa-angle-right mr-2"></i>Seller's Corner</a>
+                        <a class="text-dark mb-2" href="blog.html"><i class="fa fa-angle-right mr-2"></i>Affiliate Program</a>
+                        <a class="text-dark mb-2" href="blog.html"><i class="fa fa-angle-right mr-2"></i>Seller's Corner</a>
                         <a class="text-dark mb-2" href="https://www.facebook.com/arjhentv"><i class="fa fa-angle-right mr-2"></i>Join our Community</a>
                         <a class="text-dark mb-2" href="contact.html"><i class="fa fa-angle-right mr-2"></i>Help</a>
                         <a class="text-dark" href="chat.html"><i class="fa fa-angle-right mr-2"></i>Chat With AJ</a>
